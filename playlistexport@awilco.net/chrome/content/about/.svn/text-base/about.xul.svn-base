@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/"?>
+<?xml-stylesheet href="./about.css"?>
+<!DOCTYPE overlay SYSTEM "chrome://playlistexport/locale/about.dtd">
+<dialog
+id="about_birdtitle"
+title="&playlistexport.about.title;"
+windowstate="normal"
+buttons="accept,extra1,extra2"
+ondialogextra1="goPage(1);"
+ondialogextra2="goPage(2);"
+buttonlabelextra1="&playlistexport.about.changelog;"
+buttonlabelextra2="&playlistexport.about.viewcontrib;"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script src="about.js"/>
+<hbox><label value="&playlistexport.about.title;"/></hbox>
+<hbox><description id="desc">&playlistexport.about.desc;</description></hbox>
+<hbox><label value="&playlistexport.about.version;"/><label value="0.1.1.15"/></hbox>
+<hbox><label value="&playlistexport.about.creator;"/><label value="Hector Avila (compugeek32)"/></hbox>
+<hbox><label value="&playlistexport.about.lastupdated;"/><label value="10.26.2009"/></hbox>
+</dialog>

@@ -1,0 +1,7 @@
+<!ENTITY pet.options.title "Playlist Export Tool Preferences">
+<!ENTITY pet.options.selectfolder "Default export folder:">
+<!ENTITY pet.options.browse "Browse...">
+<!ENTITY pet.options.selectformat "Default playlist format to export your playlists as:">
+<!ENTITY pet.options.makerelative "Make Paths Relative">
+<!ENTITY pet.options.usebackslash "Use windows-style \ directory separator">
+<!ENTITY pet.options.correctcase "Make sure paths are correct case (takes longer to export)">

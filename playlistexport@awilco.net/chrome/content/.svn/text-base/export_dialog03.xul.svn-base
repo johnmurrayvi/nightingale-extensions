@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin"?>
+<?xml-stylesheet href="chrome://playlistexport/content/export.css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://playlistexport/locale/export_dialog.dtd" >
+<dialog
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+id="export_dialog"
+type="SB_PET:Export_03"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rdf="http://www.w3.org/TR/WD-rdf-syntax#"
+title="&pet.dialog.export.playlist;"
+hidechrome="false"
+ondialogaccept="return savePlaylist();"
+buttonlabelaccept="&pet.dialog.export.playlist;"
+buttonlabelhelp="About"
+buttonlabelextra2="&pet.dialog.options;"
+ondialogextra2="showOptions();"
+ondialoghelp="showAbout();"
+onload="load0();"
+buttons="extra2,accept,cancel,help">
+<script src="export_03.js" />
+<label>&pet.label.check;</label>
+<label>&pet.description.tip1;</label>
+<!--
+	Playlists go here.
+	Hopefully, before the release of Playlist Export Tool 0.2 beta 2,
+	I will have learned how to do XBL binding so I can write
+	my own tag to replace the below with
+	Tag name: pet-playlist-checkbox
+	Properties:
+		playlistschecked (boolean)
+		Values: true, false;
+		returns: boolean value;
+	
+	Methods:
+		getArrayOfCheckedByName()
+		returns: [Array] An array containg names of playlists checked
+
+		getArrayOfCheckedByPlGuid()
+		returns: [Array] An array containing GUIDs of playlists
+
+		getArrayOfCheckedByLibGuid()
+		returns: GUIDs of libraries that the playlists belong to
+-->
+
+	<listbox id="playlistpicker3" height="250" style="overflow: auto;" width="435">
+		<listhead>
+			<listheader label="&pet.table.playlist;"  flex="1" id="hdr_pl"/>
+			<listheader label="&pet.table.exportto;" id="hdr_exp"/>
+			<listheader label="&pet.table.status;" id="hdr_stat"/>
+		</listhead>
+		<listcols>
+			<listcol flex="1"/>
+			<listcol width="300"/>
+			<listcol width="100"/>
+		</listcols>
+	</listbox>
+
+<description>&pet.description.any.playlist;</description>
+<label id="export_stat" value="&pet.label.saving.playlist;" />
+</dialog>

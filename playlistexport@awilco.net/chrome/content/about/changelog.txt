@@ -1,0 +1,135 @@
+PLAYLIST EXPORT TOOL CHANGELOG
+==============================
+0.1.1.15 (October 26, 2009)
+===========================
+- Now installable on Songbird 1.4.0 Betas, upcoming final release,
+  and 1.5.0a nightly builds
+
+0.1.1.14 (June 8, 2009)
+=======================
+- Now installable on Songbird 1.2.0 Beta, upcoming final release,
+  and 1.3.0a nightly builds
+- Changed install.rdf to reflect site move from April 2009
+(Current site is temporarily down at time of writing and will
+hopefully be back up by mid-June 2009)
+
+0.1.1.13 (February 27, 2009)
+=============================
+- Now installable on Songbird 1.1.0 betas and upcoming final release
+- Added homepage to install.rdf
+
+0.1.1.12 (November 15, 2008)
+=============================
+- Fixed maxVersion in install.rdf after discovering that I forgot to
+change maxVersion to 1.1.0pre prior to release of version 0.1.1.11
+
+0.1.1.11
+=============================
+- Now installable on Songbird 1.0 RCs/Final and 1.1.0pre nightlies
+- Minor code fixes
+- FIXES FOR THE FOLLOWING BUGS:
+	- a nonexistent URI is used to attempt to create a
+	StringBundle, resulting in an error and instead shows
+	the changelog in the changelog/contributors dialog
+	- Selecting a playlist to export causes the "Too much recursion"
+	error to be displayed on Songbird's error console
+
+0.1.1.10 (August 9, 2008)
+==============================
+- Now installable on Songbird 0.7 RCs/Final and 0.8.0pre nightlies
+- Minor sizing changes made to the changelog/contrib/
+  export playlist(s) dialogs
+- Minor bugfix for a coding error that prevented the Export Playlist(s)
+  dialog from being modal
+
+0.1.1.9 (June 9, 2008)
+==============================
+- Now installable on Songbird 0.6/0.7pre
+- Localization has been added to the about dialog
+
+0.1.1.8 (April 6, 2008)
+==============================
+- This update was released to address compatibility issues left unnoticed when the
+previous update for this addon was released:
+	- The "Export Playlists" menuitem was no longer present on Songbird 0.5
+	as a result of changes made to Songbird's feathering structure as of that version
+- The date of when this addon was last updated as written in PET's about dialog
+was incorrect
+
+0.1.1.7 (April 5, 2008)
+==============================
+- Now installable on Songbird 0.6 nightlies
+MINOR ENHANCEMENTS:
+	- whenever you click the Change Path "..." button,
+	the the file type selected in the file type selection field
+	of the "Export Playlist To" dialog will be automatically set to
+	the file type indicated by file extension of the file name 
+	in it's file path entered.
+FIXES FOR THE FOLLOWING BUGS:
+	- Changes made to nsILocalFile on Songbird 0.5 caused changeExportPath()
+	to fail, therefore preventing the "Export Playlist To" dialog from
+	displaying at all when clicking on the Change Path "..." button.
+	- The "Export Playlist To" dialog did not include the name of the
+	playlist involved.
+
+0.1.1.5 (March 5, 2008)
+==============================
+- Now installable on Songbird 0.5 nightlies and final release (upcoming at time of writing)
+
+0.1.1.4 (December 19, 2007)
+==============================
+- Now installable on Songbird 0.4 RC2 and final release (upcoming at time of writing)
+FIXES FOR THE FOLLOWING BUGS...
+	- The title of the Contributors window is not localized
+	- LINUX: In the about window, hovering over the close
+	window causes the close button (X) to disappear until
+	you move your mouse away from it
+
+0.1.1.3 (November 11, 2007)
+==============================
+FIXES FOR THE FOLLOWING BUGS...
+- When exporting playlists as M3U, an error dialog displays
+the following message: "petduration is not defined" and halts
+exporting of playlists.
+
+0.1.1.2 (November 11, 2007)
+=============================
+- On Linux, Playlist Export Tool tries to use a locale DTD
+that does not exist due to case-sensitivity in paths/chrome
+URIs (e.g. overlay.dtd and Overlay.dtd are not the same file),
+preventing the Export Playlist(s) menuitem from showing up on
+Songbird's File menu.
+
+0.1.1.1 (November 07, 2007)
+=============================
+- Now installable on Songbird 0.4 nightlies
+- A place to select your default playlist format to export
+playlists as has been added to the Preferences window.
+- Minor UI Change: In the export playlist(s) dialog, the Cancel
+button becomes the Close button after exporting playlists.
+- FIXES FOR THE FOLLOWING BUGS...
+	- In the preferences window, the Playlist Export Tool
+	does not save settings when clicking OK.
+
+0.1.1 (October 26, 2007)
+=============================
+This series is based on an internal development build of
+version 0.2 Alpha 1 from October 2007, which
+could not be released.
+============
+What's new??
+============
+- UI facelift
+- The ability to export more than one playlist at once
+- Locale support
+- Massive coding improvements
+- FIXES FOR THE FOLLOWING MAJOR BUGS...
+	- While exporting playlists as M3U and PLS,
+	item numbers were skipped for every playlist/library
+	item that was hidden or a "playlist"
+- ...AND MINOR BUGS...
+	- The About dialog was mistitled "About Birdtitle"
+	- The Changelog dialog was mistitled "Birdtitle 0.2 Changelog"
+0.1 (??.2007)
+================
+- Initial release

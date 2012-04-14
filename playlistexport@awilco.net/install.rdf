@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+	<em:id>playlistexport@awilco.net</em:id>
+	<em:version>0.9.5</em:version>
+		<!-- Nightingale -->
+	<em:targetApplication>
+		<Description>
+			<em:id>nightingale@getnightingale.com</em:id>
+			<em:minVersion>1.8.1</em:minVersion>
+			<em:maxVersion>1.12.0a</em:maxVersion>
+		</Description>
+    </em:targetApplication>
+	<em:name>Playlist Export Tool v2</em:name>
+	<em:creator>Wilco</em:creator>
+	<em:contributor>Goofy</em:contributor>
+	<em:contributor>Hector Avila (compugeek32)</em:contributor>
+	<em:description>This extension allows you to export your playlists as M3U and PLS. A continuation of the Playlist Export tool by Hector Avila</em:description>
+       <em:homepageURL>http://www.awilco.net/doku/playlistexport</em:homepageURL>
+	<em:aboutURL>chrome://playlistexport/content/about/about.xul</em:aboutURL>
+	<em:optionsURL>chrome://playlistexport/content/options.xul</em:optionsURL>
+	<em:type>2</em:type>
+    </Description>
+</RDF>
