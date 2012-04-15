@@ -1,8 +1,0 @@
-<!ENTITY playlistexport.about.title "About Playlist Export Tool">
-<!ENTITY playlistexport.about.changelog "Changelog">
-<!ENTITY playlistexport.about.contactme "Contact me">
-<!ENTITY playlistexport.about.viewcontrib "Contributors">
-<!ENTITY playlistexport.about.desc "This extension allows you to export your songbird playlists as M3U and PLS">
-<!ENTITY playlistexport.about.version "Version: ">
-<!ENTITY playlistexport.about.creator "Creator: ">
-<!ENTITY playlistexport.about.lastupdated "Last Updated: ">
