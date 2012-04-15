@@ -11,12 +11,14 @@ xmlns:html="http://www.w3.org/1999/xhtml"
 xmlns:rdf="http://www.w3.org/TR/WD-rdf-syntax#"
 title="&pet.dialog.export.playlist;"
 hidechrome="false"
-ondialogaccept="return savePlaylist();"
 buttonlabelaccept="&pet.dialog.export.playlist;"
+ondialogaccept="return savePlaylist();"
+buttonlabelextra1="&pet.dialog.export.selectall;"
+ondialogextra1="selectAll();"
 buttonlabelextra2="&pet.dialog.options;"
 ondialogextra2="showOptions();"
 onload="load0();"
-buttons="extra2,accept,cancel">
+buttons="extra2,accept,cancel,extra1">
 
 <script src="export_03.js" />
 <label>&pet.label.check;</label>

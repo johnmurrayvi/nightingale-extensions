@@ -470,9 +470,13 @@
 				case 1:return val;
 			}
 		}
-	}function showAbout(){
-		window.openDialog("chrome://playlistexport/content/about/about.xul","pet_about_window","alwaysLowered=no,centerscreen=yes,resizable=no");
-	}function showOptions(){
+	}
+
+	//function showAbout(){
+	//	window.openDialog("chrome://playlistexport/content/about/about.xul","pet_about_window","alwaysLowered=no,centerscreen=yes,resizable=no");
+	//}
+	
+	function showOptions(){
 		window.openDialog("chrome://playlistexport/content/options.xul","pet_about_window","alwaysLowered=no,centerscreen=yes,resizable=no,modal=yes");
 	}function updateStatus(status0){
 		if(status0!=null){
@@ -538,6 +542,11 @@
 				prompt_srv.alert(window,pet_error_title,petexperrp1+plName+petexperrp2+"\n"+errobj.message);
 			break;
 		}
-	}function getError2(){
-		
+	}function selectAll(){
+		var pl_chkboxes=document.getElementsByClassName("pl_checkbox");
+		for(i=0;i<pl_chkboxes.length;i++){
+			if (!pl_chkboxes[i].disabled) {
+				pl_chkboxes[i].checked=true;
+			}	
+		}
 	}
