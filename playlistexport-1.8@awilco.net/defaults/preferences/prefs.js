@@ -5,7 +5,7 @@ pref("addons.playlistexport.relativePaths",true);
 //AW: preference forusing backslash
 pref("addons.playlistexport.useBackslash",false);
 //AW: preference for using correct case alogrithm
-pref("addons.playlistexport.correctCase",true);
+pref("addons.playlistexport.correctCase",false);
 // the line below is used to localize the initial description
 pref("extensions.playlistexport@hectoravila.com.description", "chrome://playlistexport/locale/description.properties");
 
