@@ -10,8 +10,8 @@
 	<em:targetApplication>
 		<Description>
 			<em:id>nightingale@getnightingale.com</em:id>
-			<em:minVersion>1.8.1</em:minVersion>
-			<em:maxVersion>1.12.0a</em:maxVersion>
+			<em:minVersion>1.8.0</em:minVersion>
+			<em:maxVersion>1.8.1</em:maxVersion>
 		</Description>
     </em:targetApplication>
 	<em:name>Playlist Export Tool v2</em:name>
