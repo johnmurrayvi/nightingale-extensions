@@ -20,7 +20,6 @@
 	<em:contributor>Hector Avila (compugeek32)</em:contributor>
 	<em:description>This extension allows you to export your playlists as M3U and PLS. A continuation of the Playlist Export tool by Hector Avila</em:description>
        <em:homepageURL>http://www.awilco.net/doku/playlistexport</em:homepageURL>
-	<em:aboutURL>chrome://playlistexport/content/about/about.xul</em:aboutURL>
 	<em:optionsURL>chrome://playlistexport/content/options.xul</em:optionsURL>
 	<em:type>2</em:type>
     </Description>
