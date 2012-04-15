@@ -17,11 +17,6 @@ buttonlabelextra2="&pet.dialog.options;"
 ondialogextra2="showOptions();"
 onload="load0();"
 buttons="extra2,accept,cancel">
-<!--
-buttonlabelhelp="About"
-ondialoghelp="showAbout();"
-buttons="extra2,accept,cancel,help"
--->
 
 <script src="export_03.js" />
 <label>&pet.label.check;</label>
