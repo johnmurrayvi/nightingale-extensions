@@ -1,0 +1,4 @@
+content playlistexport	chrome/content/
+locale playlistexport	en-US chrome/locale/en-US/
+overlay chrome://songbird/content/xul/menuOverlay.xul	chrome://playlistexport/content/overlay_03.xul appversion<0.5
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul	chrome://playlistexport/content/overlay_03.xul appversion>=0.5
