@@ -1,0 +1,4 @@
+<!ENTITY mini-calc.helloworld.label "Do HelloWorld">
+<!ENTITY mini-calc.helloworld.accesskey "H">
+<!ENTITY mini-calc.pane.label "This is a Display Pane">
+<!ENTITY mini-calc.pane.button "Learn More">

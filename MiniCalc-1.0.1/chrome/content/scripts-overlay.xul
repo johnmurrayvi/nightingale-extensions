@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<overlay id="mini-calc-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="main.js"/>
+
+  <stringbundleset id="stringbundleset"> 
+     <stringbundle id="mini-calc-strings" src="chrome://mini-calc/locale/overlay.properties"/>
+  </stringbundleset>  
+
+</overlay>

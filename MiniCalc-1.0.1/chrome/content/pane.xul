@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<?xml-stylesheet href="chrome://songbird/content/bindings/bindings.css" type="text/css"?>
+
+<?xml-stylesheet href="chrome://songbird/skin/songbird.css" type="text/css" title="Skin"?>
+
+
+<?xml-stylesheet href="chrome://mini-calc/skin/pane.css" type="text/css"?>
+
+
+<!DOCTYPE page SYSTEM "chrome://mini-calc/locale/overlay.dtd">
+<page id="mini-calc-pane" title="&mini-calc.pane.label;"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script src="pane.js"/>
+
+
+
+<vbox>
+<hbox pack="center">
+	<button id = "num1" disabled="true"/>
+	<label id="func"></label>
+</hbox>
+ <hbox pack="center">
+	<button id="num2" disabled="true"/>
+	<label id="equ" value="="></label>
+<!-- 
+<label id="num1" flex="5"></label>
+<label id="equ">=</label>
+<button id = "be1" disabled="true"   label="="/>
+-->
+
+</hbox>
+<hbox pack="center">
+	<textbox  id="calc"  readonly="true"></textbox>
+</hbox>
+<hbox pack="center">
+    <button id = "b1"  label="1"/>
+    <button id = "b2"  label="2"/>
+    <button id = "b3"  label="3"/>
+    <button id = "bd"  label=" / "/>
+
+ </hbox>
+ <hbox pack="center">
+    <button id = "b4"  label="4"/>
+    <button id = "b5"  label="5"/>
+    <button id = "b6"  label="6"/>
+    <button id = "bt"  label=" * "/>
+
+ </hbox>
+ <hbox pack="center">
+    <button id = "b7"  label="7"/>
+    <button id = "b8"  label="8"/>
+    <button id = "b9"  label="9"/>
+    <button id = "bm"  label=" - "/>    
+ </hbox>
+ <hbox pack="center">
+    <button id = "bc"    label="+/-"/>
+    <button id = "bzero" label="0"/>
+    <button id = "bdot"  label="."/>
+    <button id = "bp"    label="+"/>
+    
+  </hbox>
+<hbox pack="center">
+    <button id = "bs"   label="sqrt"/>
+    <button id = "be" flex="1"  label="="/>
+    <button id = "bclr"   label="CLR"/>
+  </hbox>
+</vbox>
+</page>

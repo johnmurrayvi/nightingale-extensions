@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+     xmlns:songbird="http://www.songbirdnest.com/2007/addon-metadata-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>MiniCalcMaxVersionReupload@Marko</em:id>
+    <em:type>2</em:type>
+    <em:name>Mini Calc</em:name>
+    <em:version>1.0.1</em:version>
+    <em:creator>Drew McDermott</em:creator>
+
+
+    <em:description>A calculator that can be docked in songbird</em:description>
+
+
+	<!-- Nightingale -->
+	<em:targetApplication>
+	  <Description>
+		<em:id>nightingale@getnightingale.com</em:id>
+		<em:minVersion>1.11.0a</em:minVersion>
+		<em:maxVersion>1.12.0a</em:maxVersion>
+	  </Description>
+	</em:targetApplication>
+
+
+    <!-- Register a pane to be displayed below the service sidebar.
+         See http://songbirdnest.com/add-on-api/articles/display-panes -->
+    <songbird:displayPanes>
+      <Description>
+        <songbird:displayPane>
+          <Description>
+            <songbird:contentTitle>Mini Calc</songbird:contentTitle>
+            <songbird:contentUrl>chrome://mini-calc/content/pane.xul</songbird:contentUrl>
+            <songbird:contentIcon>chrome://mini-calc/skin/pane-icon.png</songbird:contentIcon>
+            <songbird:defaultWidth>200</songbird:defaultWidth>
+            <songbird:defaultHeight>242</songbird:defaultHeight>
+            <songbird:suggestedContentGroups>servicepane</songbird:suggestedContentGroups>
+            <songbird:showOnInstall>true</songbird:showOnInstall>
+          </Description>
+        </songbird:displayPane>
+      </Description>
+    </songbird:displayPanes>
+
+
+  </Description>
+</RDF>
