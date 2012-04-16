@@ -1,0 +1,17 @@
+content libmover  chrome/content/
+locale  libmover  en-US  chrome/locale/en-US/
+locale  libmover  de  chrome/locale/de/
+locale  libmover  fr  chrome/locale/fr/
+locale  libmover  pt-BR  chrome/locale/pt-BR/
+locale  libmover  sr  chrome/locale/sr/
+skin    libmover  classic/1.0 chrome/skin/
+
+
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul chrome://libmover/content/scripts-overlay.xul
+
+
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul chrome://libmover/content/toolbar-overlay.xul
+
+
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul chrome://libmover/content/commands-overlay.xul
+

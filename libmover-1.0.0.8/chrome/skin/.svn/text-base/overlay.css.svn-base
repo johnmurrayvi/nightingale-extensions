@@ -1,0 +1,22 @@
+
+
+/** Apply an image to our toolbarbutton.  Use multiple states in a
+    single image and then reposition the viewport in order to avoid
+    flickering on state change **/
+#libmover-toolbarbutton
+{
+  list-style-image: url(chrome://libmover/skin/button.png);
+  -moz-image-region: rect(0px 16px 16px 0px);
+}
+#libmover-toolbarbutton:hover
+{
+  -moz-image-region: rect(16px 16px 32px 0px);
+}
+#libmover-toolbarbutton[disabled="true"]
+{
+  -moz-image-region: rect(48px 16px 64px 0px);
+}
+#libmover-toolbarbutton[active="true"]
+{
+  -moz-image-region: rect(32px 16px 48px 0px);
+}

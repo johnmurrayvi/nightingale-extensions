@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+     xmlns:songbird="http://www.songbirdnest.com/2007/addon-metadata-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{ff717cfa-73e6-4f1a-96af-bcbb26e59aca}</em:id>
+    <em:type>2</em:type>
+    <em:name>LibMover</em:name>
+    <em:description>Helps you moving a library without losing ratings, covers and stuff</em:description>
+    <em:version>1.0.0.8</em:version>
+    <em:creator>Lukas Diener</em:creator>
+	<em:contributor>de: Lukas_Skywalker</em:contributor>
+	<em:contributor>fr: Goofy</em:contributor>
+	<em:contributor>pt-BR: Edgard Dias Magalhaes</em:contributor>
+	<em:contributor>sr: ДакСРБИЈА</em:contributor>
+	<em:iconURL>chrome://libmover/skin/icon.png</em:iconURL>	
+	<em:localized>
+      <Description>
+        <em:locale>en-US</em:locale>
+        <em:name>LibMover</em:name>
+          <em:description>Helps you moving a library without losing ratings, covers and stuff</em:description>
+      </Description>
+    </em:localized>
+	<!-- Nightingale -->
+	<em:targetApplication>
+	  <Description>
+		<em:id>nightingale@getnightingale.com</em:id>
+		<em:minVersion>1.11.0a</em:minVersion>
+		<em:maxVersion>1.12.0a</em:maxVersion>
+	  </Description>
+	</em:targetApplication>
+  </Description>
+</RDF>

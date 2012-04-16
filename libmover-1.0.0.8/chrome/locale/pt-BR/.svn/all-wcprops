@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/libmove/!svn/ver/21/trunk/chrome/locale/pt-BR
+END
+about.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/libmove/!svn/ver/21/trunk/chrome/locale/pt-BR/about.dtd
+END
+overlay.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/libmove/!svn/ver/21/trunk/chrome/locale/pt-BR/overlay.dtd
+END
+overlay.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/libmove/!svn/ver/21/trunk/chrome/locale/pt-BR/overlay.properties
+END

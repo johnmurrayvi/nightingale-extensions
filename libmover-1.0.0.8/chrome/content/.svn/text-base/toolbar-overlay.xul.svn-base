@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+
+<?xml-stylesheet href="chrome://libmover/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://libmover/locale/overlay.dtd">
+<overlay
+  id="libmover-toolbar-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <!-- Add the toolbar button into the browser toolbar palette so that
+         the user can show/hide it as desired -->
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton  id="libmover-toolbarbutton" 
+			label="Move Library"
+			tooltiptext="Move Library" 
+            class="toolbarbutton-1 chromeclass-toolbar-additional" 
+            command="libmover-helloworld-cmd" />
+    </toolbarpalette>
+
+</overlay>
