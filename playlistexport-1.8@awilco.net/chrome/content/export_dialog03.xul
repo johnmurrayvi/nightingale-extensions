@@ -11,42 +11,18 @@ xmlns:html="http://www.w3.org/1999/xhtml"
 xmlns:rdf="http://www.w3.org/TR/WD-rdf-syntax#"
 title="&pet.dialog.export.playlist;"
 hidechrome="false"
-ondialogaccept="return savePlaylist();"
 buttonlabelaccept="&pet.dialog.export.playlist;"
+ondialogaccept="return savePlaylist();"
+buttonlabelextra1="&pet.dialog.export.selectall;"
+ondialogextra1="selectAll();"
 buttonlabelextra2="&pet.dialog.options;"
 ondialogextra2="showOptions();"
 onload="load0();"
-buttons="extra2,accept,cancel">
-<!--
-buttonlabelhelp="About"
-ondialoghelp="showAbout();"
-buttons="extra2,accept,cancel,help"
--->
+buttons="extra2,accept,cancel,extra1">
 
 <script src="export_03.js" />
 <label>&pet.label.check;</label>
 <label>&pet.description.tip1;</label>
-<!--
-	Playlists go here.
-	Hopefully, before the release of Playlist Export Tool 0.2 beta 2,
-	I will have learned how to do XBL binding so I can write
-	my own tag to replace the below with
-	Tag name: pet-playlist-checkbox
-	Properties:
-		playlistschecked (boolean)
-		Values: true, false;
-		returns: boolean value;
-	
-	Methods:
-		getArrayOfCheckedByName()
-		returns: [Array] An array containg names of playlists checked
-
-		getArrayOfCheckedByPlGuid()
-		returns: [Array] An array containing GUIDs of playlists
-
-		getArrayOfCheckedByLibGuid()
-		returns: GUIDs of libraries that the playlists belong to
--->
 
 	<listbox id="playlistpicker3" height="250" style="overflow: auto;" width="435">
 		<listhead>

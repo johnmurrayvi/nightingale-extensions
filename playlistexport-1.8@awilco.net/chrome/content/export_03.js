@@ -538,6 +538,11 @@
 				prompt_srv.alert(window,pet_error_title,petexperrp1+plName+petexperrp2+"\n"+errobj.message);
 			break;
 		}
-	}function getError2(){
-		
+	}function selectAll() {
+		var pl_chkboxes=document.getElementsByClassName("pl_checkbox");
+		for(i=0;i<pl_chkboxes.length;i++){
+			if(!pl_chkboxes[i].disabled){
+				pl_chkboxes[i].checked=true;
+			}
+		}
 	}

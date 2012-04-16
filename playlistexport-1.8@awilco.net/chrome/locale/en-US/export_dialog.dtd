@@ -1,4 +1,5 @@
 <!ENTITY pet.dialog.export.playlist "Export Playlist(s)">
+<!ENTITY pet.dialog.export.selectall "Select All Playlists">
 <!ENTITY pet.dialog.options "Preferences...">
 <!ENTITY pet.label.check "Check one or more playlists that you want to export and then click &quot;Export Playlist(s)&quot;">
 <!ENTITY pet.description.any.playlist "Any playlist with a checkbox disabled cannot be exported">
