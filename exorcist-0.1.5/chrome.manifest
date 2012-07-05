@@ -1,0 +1,4 @@
+content exorcist  chrome/content/
+locale  exorcist  en-US  chrome/locale/en-US/
+skin    exorcist  classic/1.0 chrome/skin/
+
