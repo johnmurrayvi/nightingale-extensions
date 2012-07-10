@@ -1,12 +1,13 @@
 #!/bin/sh
 
 ext=$1
-if [ ! -d "built" ] ; then
+bdir=xpis
+if [ ! -d $bdir ] ; then
 	mkdir xpis
-elif [ -f "built/$ext.xpi" ] ; then
+elif [ -f "$bdir/$ext.xpi" ] ; then
 	rm -f $ext.xpi
 fi
 
 cd $ext
-zip -r ../xpis/$ext.xpi ./
+zip -r ../$bdir/$ext.xpi ./
 
