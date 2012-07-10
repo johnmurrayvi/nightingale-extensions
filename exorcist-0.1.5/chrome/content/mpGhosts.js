@@ -42,7 +42,7 @@ window.mediaPage = {
 		killButton.disabled = true;
 		
 		try {
-			var pageMgr = Cc["@getnightingale.com/Nightingale/MediaPageManager;1"]
+			var pageMgr = Cc["@songbirdnest.com/Songbird/MediaPageManager;1"]
 					.getService(Ci.sbIMediaPageManager);
 			// get the media list we were applied to
 			var mediaList = this._mediaListView.mediaList;
@@ -54,13 +54,13 @@ window.mediaPage = {
 				var pageInfo = pages.getNext();
 				pageInfo.QueryInterface(Ci.sbIMediaPageInfo);
 				if (pageInfo.contentUrl ==
-					"chrome://nightingale/content/mediapages/playlistPage.xul")
+					"chrome://songbird/content/mediapages/playlistPage.xul")
 				listView = pageInfo;
 			}
 			pageMgr.setPage(mediaList, listView);
 			var ngaleWindow = Cc["@mozilla.org/appshell/window-mediator;1"]
 				.getService(Ci.nsIWindowMediator)
-				.getMostRecentWindow("Nightingale:Main");
+				.getMostRecentWindow("Songbird:Main");
 			ngaleWindow.gBrowser.loadMediaList(mediaList,
 				null, null, null, null);
 		} catch (e) {
@@ -68,7 +68,7 @@ window.mediaPage = {
 		}
 	} else {
 		builder =
-			Cc["@getnightingale.com/Nightingale/Library/ConstraintBuilder;1"]
+			Cc["@songbirdnest.com/Songbird/Library/ConstraintBuilder;1"]
 			.createInstance(Ci.sbILibraryConstraintBuilder);
 		for (var i=0; i < ghosts.length; i++) {
 			builder = builder.include(SBProperties.GUID, ghosts[i].guid);
@@ -101,8 +101,8 @@ window.mediaPage = {
     
     // Get playlist commands (context menu, keyboard shortcuts, toolbar)
     // Note: playlist commands currently depend on the playlist widget.
-    var mgr = Cc["@sgetnightingale.com/Nightingale/PlaylistCommandsManager;1"]
-    var mgr = Cc["@sgetnightingale.com/Nightingale/PlaylistCommandsManager;1"]
+    var mgr = Cc["@ssongbirdnest.com/Songbird/PlaylistCommandsManager;1"]
+    var mgr = Cc["@ssongbirdnest.com/Songbird/PlaylistCommandsManager;1"]
                 .createInstance(Ci.sbIPlaylistCommandsManager);
     var cmds = mgr.request(kPlaylistCommands.MEDIAITEM_DEFAULT);
     

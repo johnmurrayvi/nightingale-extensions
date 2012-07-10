@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 
 <?xml-stylesheet href="chrome://global/skin" type="text/css"?>
-<?xml-stylesheet href="chrome://nightingale/skin/nightingale.css" type="text/css"?>
-<?xml-stylesheet href="chrome://nightingale/content/bindings/bindings.css"
+<?xml-stylesheet href="chrome://songbird/skin/songbird.css" type="text/css"?>
+<?xml-stylesheet href="chrome://songbird/content/bindings/bindings.css"
 	type="text/css"?>
 <?xml-stylesheet href="chrome://exorcist/skin/media-page.css" type="text/css"?>
 
 <!DOCTYPE page SYSTEM "chrome://exorcist/locale/overlay.dtd">
 
-<?xul-overlay href="chrome://nightingale/content/xul/mediaPageOverlay.xul"?>
+<?xul-overlay href="chrome://songbird/content/xul/mediaPageOverlay.xul"?>
 
 <page
   id="exorcist-ghosts-media-page"
@@ -17,7 +17,7 @@
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
   onload="window.mediaPage.onLoad();"
   onunload="window.mediaPage.onUnload();"
-  windowtype="Nightingale:MediaPage"
+  windowtype="Songbird:MediaPage"
 >
 
   <script type="application/x-javascript" src="ghostbusters.js" />

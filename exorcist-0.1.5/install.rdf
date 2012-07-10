@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#"
-     xmlns:nightingale="http://www.getnightingale.com/2007/addon-metadata-rdf#">
+     xmlns:songbird="http://www.songbirdnest.com/2007/addon-metadata-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>ghostbusters@songbirdnest.com</em:id>
     <em:type>2</em:type>
     <em:name>The Exorcist</em:name>
-    <em:version>0.1.5</em:version>
+    <em:version>0.1.16.1</em:version>
     <em:creator>Stephen Lau (stevel@songbirdnest.com)</em:creator>
     <em:contributor>Caleb Phillips (prefer rated items)</em:contributor>
     <em:contributor>Richard Crowley (MD5 in JS code)</em:contributor>
     <em:contributor>Mitchell Field (marketing and branding)</em:contributor>
     <em:description>Media Views for showing your broken/missing tracks (ghosts) and duplicate tracks (clones).</em:description>
+
     <em:iconURL>chrome://exorcist/content/exorcist.png</em:iconURL>
+
     <em:targetApplication>
       <Description>
         <em:id>nightingale@getnightingale.com</em:id>
-        <em:minVersion>1.0.*</em:minVersion>
-        <em:maxVersion>1.11.*</em:maxVersion>
+        <em:minVersion>1.11.0a</em:minVersion>
+        <em:maxVersion>2.1.0a</em:maxVersion>
       </Description>
     </em:targetApplication>
 
-    <nightingale:mediaPage>
+    <songbird:mediaPage>
       <Description>
-        <nightingale:contentTitle>Ghost Tracks</nightingale:contentTitle>
-        <nightingale:contentUrl>chrome://exorcist/content/mpGhosts.xul</nightingale:contentUrl>
+        <songbird:contentTitle>Ghost Tracks</songbird:contentTitle>
+        <songbird:contentUrl>chrome://exorcist/content/mpGhosts.xul</songbird:contentUrl>
       </Description>
-    </nightingale:mediaPage>
+    </songbird:mediaPage>
 
-    <nightingale:mediaPage>
+    <songbird:mediaPage>
       <Description>
-        <nightingale:contentTitle>Duplicate Tracks</nightingale:contentTitle>
-        <nightingale:contentUrl>chrome://exorcist/content/mpClones.xul</nightingale:contentUrl>
+        <songbird:contentTitle>Duplicate Tracks</songbird:contentTitle>
+        <songbird:contentUrl>chrome://exorcist/content/mpClones.xul</songbird:contentUrl>
       </Description>
-    </nightingale:mediaPage>
+    </songbird:mediaPage>
 
   </Description>
 </RDF>
