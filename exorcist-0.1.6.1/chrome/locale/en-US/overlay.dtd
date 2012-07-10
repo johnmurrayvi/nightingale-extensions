@@ -1,0 +1,5 @@
+<!ENTITY exorcist.file.path.label "File Path:">
+<!ENTITY exorcist.kill.ghosts.label "Exorcise the Ghosts!">
+<!ENTITY exorcist.kill.clones.label "Exorcise the Clones!">
+<!ENTITY exorcist.scanning.clones.label "Scanning for clones...">
+<!ENTITY exorcist.scanning.ghosts.label "Scanning for ghosts...">
