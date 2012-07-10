@@ -81,6 +81,7 @@ window.mediaPage = {
 	}
   },
     
+    
   onLoad:  function(e) {
     
     // Make sure we have the javascript modules we're going to use
@@ -101,8 +102,7 @@ window.mediaPage = {
     
     // Get playlist commands (context menu, keyboard shortcuts, toolbar)
     // Note: playlist commands currently depend on the playlist widget.
-    var mgr = Cc["@ssongbirdnest.com/Songbird/PlaylistCommandsManager;1"]
-    var mgr = Cc["@ssongbirdnest.com/Songbird/PlaylistCommandsManager;1"]
+    var mgr = Cc["@songbirdnest.com/Songbird/PlaylistCommandsManager;1"]
                 .createInstance(Ci.sbIPlaylistCommandsManager);
     var cmds = mgr.request(kPlaylistCommands.MEDIAITEM_DEFAULT);
     
