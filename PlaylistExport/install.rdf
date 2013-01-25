@@ -11,7 +11,7 @@
 		<Description>
 			<em:id>nightingale@getnightingale.com</em:id>
 			<em:minVersion>1.11.0a</em:minVersion>
-			<em:maxVersion>1.12.0a</em:maxVersion>
+			<em:maxVersion>2.2.0a</em:maxVersion>
 		</Description>
     </em:targetApplication>
 	<em:name>Playlist Export Tool v2</em:name>
