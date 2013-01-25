@@ -5,7 +5,7 @@
     <em:id>ghostbusters@songbirdnest.com</em:id>
     <em:type>2</em:type>
     <em:name>The Exorcist</em:name>
-    <em:version>0.1.6.1</em:version>
+    <em:version>0.1.6.2</em:version>
     <em:creator>Stephen Lau (stevel@songbirdnest.com)</em:creator>
     <em:contributor>Caleb Phillips (prefer rated items)</em:contributor>
     <em:contributor>Richard Crowley (MD5 in JS code)</em:contributor>
@@ -18,7 +18,7 @@
       <Description>
         <em:id>nightingale@getnightingale.com</em:id>
         <em:minVersion>1.11.0a</em:minVersion>
-        <em:maxVersion>2.1.0a</em:maxVersion>
+        <em:maxVersion>2.2.0a</em:maxVersion>
       </Description>
     </em:targetApplication>
 
